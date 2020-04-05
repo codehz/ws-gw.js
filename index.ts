@@ -17,7 +17,7 @@ function buildHandshake() {
 
 export type EventHandler = (obj: Uint8Array) => PromiseLike<void>;
 
-class ServiceProxy {
+export class ServiceProxy {
   private _status: boolean;
   private client: Client;
   private name: string;

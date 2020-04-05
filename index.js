@@ -56,6 +56,7 @@ class ServiceProxy {
         (_b = this._initFn) === null || _b === void 0 ? void 0 : _b.call(this, this);
     }
 }
+exports.ServiceProxy = ServiceProxy;
 class Client {
     constructor() {
         this.syncQueue = [];
