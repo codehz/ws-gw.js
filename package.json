@@ -1,0 +1,25 @@
+{
+  "name": "ws-gw",
+  "version": "0.0.0",
+  "description": "ws-gw for node.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codehz/ws-gw.js.git"
+  },
+  "keywords": [
+    "rpc",
+    "ws-gateway",
+    "websocket"
+  ],
+  "author": "CodeHz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codehz/ws-gw.js/issues"
+  },
+  "homepage": "https://github.com/codehz/ws-gw.js#readme",
+  "dependencies": {
+    "@types/ws": "^7.2.3",
+    "ws": "^7.2.3"
+  }
+}
