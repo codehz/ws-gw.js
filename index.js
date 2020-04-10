@@ -17,7 +17,7 @@ class ServiceProxy {
     }
     init(initFn) {
         this._initFn = initFn;
-        if (this.status != null && this._initFn != null) {
+        if (this.status && this._initFn != null) {
             this._initFn(this);
         }
     }
