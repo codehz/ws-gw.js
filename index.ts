@@ -32,7 +32,7 @@ export class ServiceProxy {
 
   init(initFn: (self?: ServiceProxy) => PromiseLike<void>) {
     this._initFn = initFn;
-    if (this.status  && this._initFn != null) {
+    if (this.status && this._initFn != null) {
       this._initFn(this);
     }
   }
